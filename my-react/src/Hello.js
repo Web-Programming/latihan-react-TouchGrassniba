@@ -1,13 +1,12 @@
 import React from "react";
-
 function Hello(props){
-    const{nama,pesan} = props;
-    return <h1>Halo bro {nama},{pesan}</h1>;
+    const {nama,pesan} = props
+    return<h1>Hello {nama},{pesan}</h1>
 }
 
-Hello.defaultProps={
-    nama:"Disini Barangnya",
-    pesan:"Murah Murah",
+Hello.defaultProps = {
+    nama: "Jessen Fallik Bemi",
+    pesan: "Selamat Malam"
 }
 
 export default Hello;
