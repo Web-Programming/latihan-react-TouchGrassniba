@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 export default function Dashboard() {
-    return
-    (
+    return(
         <div>
-            <h1>This is Dashboard Page</h1>
+            <h1>This is dashboard page</h1>
 
-            <Link href={"dashboard/users/Valentino Juanito"}  />
+           &bull; <Link href={"dashboard/users/Valentino_Juanito/2327250020"}>Valentino</Link>
         </div>
-    );
+    )
+
   }
   
