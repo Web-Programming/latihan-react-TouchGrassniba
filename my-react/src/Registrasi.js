@@ -23,41 +23,31 @@ function Registrasi() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <h2 class="mb-3">Registrasi</h2>
-      <div class="container-fluid">
-      <div class="mb-3">
-      <label class="form-label">
+      <label>
         Nama:
         <input
-          type="text" class="form-control"
+          type="text"
           value={nama}
           onChange={(e) => setNama(e.target.value)}
         />
       </label>
-      </div>
-      <div class="mb-3">
-      <label  class="form-label">
+      <label>
         Email:
-        <input class="form-control"
-          type="email"
+        <input
+          type="text"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
       </label>
-      </div>
-      <div class="mb-3">
-      <label class="form-label">
+      <label>
         Hp:
-        <input class="form-control"
+        <input
           type="text"
           value={hp}
           onChange={(e) => setHp(e.target.value)}
         />
       </label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-      {/* <input type="submit" value="Submit" /> */}
-      </div>
+      <input type="submit" value="Submit" />
     </form>
   );
 }

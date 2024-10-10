@@ -1,15 +1,16 @@
+export const dynamic = 'force-dynamic'
 export async function POST(){
     let data = [
         {
-        'npm' : '2327250020',
-        'nama' : 'Valentino Juanito'
+            'npm' : '00010001',
+            'nama' : 'Fatimah'
         },
         {
-            'npm' : '2327250065',
-            'nama': 'Jessen Fallik Bemi'
+            'npm' : '00020002',
+            'nama' : 'Wilfrida'
         },
     ];
 
-    //return Response.json(data);
     return Response.json(data);
+
 }

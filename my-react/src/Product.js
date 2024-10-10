@@ -1,4 +1,3 @@
-
 import React from "react";
 import asusImage from './img/asus.jpg';
 import acerImage from './img/acer.jpg';
@@ -19,7 +18,7 @@ function Product() {
     // ));
     // return <div>{displayProduct}</div>;
     return (
-        <table class="table table-hover" border="5">
+        <table className="table table-bordered">
             <thead>
                 <tr>
                     <th>ID</th>
