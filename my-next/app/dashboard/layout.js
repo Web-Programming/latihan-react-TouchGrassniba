@@ -12,6 +12,17 @@ export default function DashboardLayout({
                         Dashboard
                         </Link>
                     </li>
+                    
+                     <li>
+                        <Link href="/dashboard/about" className="text-white hover:text-blue-200">
+                        About
+                        </Link>
+                    </li>
+                     <li>
+                        <Link href="/dashboard/blog" className="text-white hover:text-blue-200">
+                        Blog
+                        </Link>
+                    </li>
                     <li>
                         <Link href="/dashboard/setting" className="text-white hover:text-blue-200">
                         Setting
