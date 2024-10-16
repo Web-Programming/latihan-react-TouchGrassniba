@@ -11,21 +11,27 @@
   
 - https://reqres.in/api/users
 
-3. Penggunakan metode untuk api 
- - GET 
+3. Penggunakan metode untuk api     
+     GET 
    - Mengambil daftar pengguna yang tersedia di api.
    - Response: Mengembalikan daftar pengguna dengan detail , first_name, email, dan role (role diisi secara acak khusus untuk data yang sudah ada di api).
 
-2. POST 
+     POST 
    - Menambahkan pengguna baru.
    - name , email , dan role
    - Response: Mengembalikan detail pengguna yang baru ditambahkan.
 
-3. PUT 
+     PUT 
    - Memperbarui detail pengguna berdasarkan ID.
    - name , email , role
    - mereturn detail pengguna yang telah diperbarui.
 
-4. DELETE 
+     DELETE 
    - Menghapus pengguna berdasarkan ID.
    - Mengkonfirmasi penghapusan pengguna.
+
+4. cara menjalankan website
+ 
+ - clone github repo
+ - npm install (jika belum)
+ - npm start
