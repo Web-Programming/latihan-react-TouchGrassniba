@@ -34,4 +34,6 @@
  
  - clone github repo
  - npm install (jika belum)
+ - npm install axios
+ - npm install bootstrap
  - npm start
