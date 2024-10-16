@@ -1,11 +1,11 @@
 1 .Fitur
 
-- Menampilkan Daftar Pengguna**: Menampilkan daftar pengguna yang diambil dari API.
-- Menambahkan Pengguna**: Memungkinkan pengguna untuk menambahkan pengguna baru dengan nama, email, dan role acak.
-- Memperbarui Pengguna**: Memungkinkan pengguna untuk memperbarui informasi pengguna yang ada.
-- Menghapus Pengguna**: Memungkinkan pengguna untuk menghapus pengguna setelah konfirmasi.
-- Validasi Formulir**: Memastikan semua field terisi sebelum menambahkan atau memperbarui pengguna.
-- Role Acak**: Setiap pengguna akan mendapatkan role acak dari daftar yang telah ditentukan.
+- Menampilkan Daftar Pengguna: Menampilkan daftar pengguna yang diambil dari API.
+- Menambahkan Pengguna: Memungkinkan pengguna untuk menambahkan pengguna baru dengan nama, email, dan role acak.
+- Memperbarui Pengguna: Memungkinkan pengguna untuk memperbarui informasi pengguna yang ada.
+- Menghapus Pengguna: Memungkinkan pengguna untuk menghapus pengguna setelah konfirmasi.
+- Validasi Formulir: Memastikan semua field terisi sebelum menambahkan atau memperbarui pengguna.
+- Role Acak: hanya untuk pengguna yang sudah ada di api.
 
 2. Api yang digunakan
   
